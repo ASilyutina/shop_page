@@ -53,6 +53,7 @@ html{
 
 .content {
     margin-top: 50px;
+    align-items: center;
 
 }
 
@@ -70,6 +71,7 @@ html{
 .txt-box {
     background: rgb(255, 255, 255);
     padding: 10px;
+    text-align: center;
 }
 
 .item-box {
@@ -77,3 +79,30 @@ html{
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+.item2 {
+    width: 500px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-left: 250px;
+} 
+
+.item2-pic {
+    width: 100%;
+    display: table-cell;
+}
+
+.txt2-box {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.item2-box {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}    
